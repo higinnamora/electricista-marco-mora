@@ -26,6 +26,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: var(--black);
 }
 li {
   list-style: none;
@@ -45,8 +46,10 @@ li {
 .nav__logo img {
   width: 6.4rem;
 }
-.nav__logo a {
+.nav__logo p {
   margin-left: 1rem;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
 }
 /* Dark-mode */
 .switch {
