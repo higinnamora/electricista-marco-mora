@@ -39,6 +39,8 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 80px;
+  margin-bottom: 1rem;
 }
 .nav__logo {
   display: flex;
@@ -56,7 +58,7 @@ li {
   line-height: 2rem;
 }
 .nav__link:hover {
-  color: var(--second-color);
+  color: var(--first-color);
 }
 /* Dark-mode */
 .switch {
@@ -103,8 +105,11 @@ li {
 .dark .nav__logo p, .dark .nav__list a {
   color: var(--white);
 }
+.dark .nav__link:hover {
+  color: var(--first-color);
+}
 .hero {
-  height: 500px;
+  height: 480px;
   background-image: url('../images/hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
