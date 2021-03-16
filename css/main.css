@@ -103,3 +103,47 @@ li {
 .dark a {
   color: var(--white);
 }
+.hero {
+  height: 500px;
+  background-image: url('../images/hero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero:after {
+  background-color: black;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.hero__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+}
+.hero__description p {
+  font-size: 2.4rem;
+  font-weight: 700;
+  background-color: #ffff007d;
+  padding: 2rem;
+  margin-bottom: 2.0rem;
+}
+.hero__description a {
+  background-color: #ffff007d;
+  width: 140px;
+  border: 1px solid var(--black);
+  padding: 8px;
+  font-weight: bold;
+}
