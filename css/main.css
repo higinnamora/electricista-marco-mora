@@ -185,6 +185,11 @@ li {
   padding: 2.0rem;
 }
 /* Services */
+.services__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .title__principal {
   background-color: var(--first-color);
   background-image: url('../images/always-grey.png');
@@ -194,7 +199,7 @@ li {
 }
 .services__description {
   text-align: center;
-  max-width: 520px;
+  max-width: 420px;
   margin-bottom: 2.0rem;
 }
 .services__description h3, .services__description img, .services__description p{
@@ -226,6 +231,5 @@ li {
 .footer__copy {
   display: flex;
   justify-content: center;
-  background-color: var(--first-color);
   padding: 1.0rem 0;
 }
