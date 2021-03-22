@@ -34,6 +34,8 @@ li {
 }
 .container {
   padding: 1rem;
+  max-width: 864px;
+  margin: 0 auto;
 }
 .nav {
   display: flex;
