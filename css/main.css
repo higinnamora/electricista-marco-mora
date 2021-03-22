@@ -102,8 +102,15 @@ li {
 .dark {
   background: var(--dark-mode);
 }
-.dark .nav__logo p, .dark .nav__list a {
+.dark .nav__logo p, .dark .nav__list a, .dark .services__container, .dark .footer, .dark .footer__social i {
   color: var(--white);
+}
+.dark .footer h2 {
+  color: var(--black);
+}
+.dark .footer__description img {
+  background-color: var(--white);
+  border-radius: 1rem;
 }
 .dark .nav__link:hover {
   color: var(--first-color);
