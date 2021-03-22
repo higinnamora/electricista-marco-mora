@@ -242,8 +242,17 @@ li {
   justify-content: center;
   padding: 1.0rem 0;
 }
+/* Media queries */
 @media screen and (min-width: 420px) {
   .services__container {
     justify-content: center;
+  }
+}
+@media screen and (min-width: 576px) {
+  .nav__list {
+    display: flex;
+  }
+  .nav__link {
+    margin-right: 1rem;
   }
 }
