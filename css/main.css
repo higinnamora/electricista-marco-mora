@@ -67,14 +67,14 @@ li {
   cursor: pointer;
   display: flex;
   outline: none;
-  background-color: var(--second-color);
+  background-color: var(--first-color);
   border-radius: 1000px;
 }
 .switch::after {
   content: "";
   display: block;
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   position: absolute;
   background: #f1f1f1;
   top: 0;
@@ -93,9 +93,9 @@ li {
 }
 .switch span {
   display: block;
-  width: 18px;
-  height: 18px;
-  line-height: 18px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
   color: var(--black);
   text-align: center;
 }
